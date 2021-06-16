@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ReturnHome\EQOAProto-C-Sharp\EQOA-Proto-C-sharp.csproj" />
+    <ProjectReference Include="..\EQOAProto-C-Sharp\EQOA-Proto-C-sharp.csproj" />
   </ItemGroup>
 
 </Project>
