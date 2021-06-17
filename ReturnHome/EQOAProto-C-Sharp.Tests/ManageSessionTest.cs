@@ -1,8 +1,8 @@
 using Xunit;
+using ReturnHome.Packet;
 using ReturnHome.PacketHandler;
 using ReturnHome.PacketHandler.HandleFirstPacket;
 using ReturnHome.Repository;
-using ReturnHome;
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
