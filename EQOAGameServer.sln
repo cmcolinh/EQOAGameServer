@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication server", "Au
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReturnHome", "ReturnHome\EQOAProto-C-Sharp\ReturnHome.csproj", "{88466742-50F4-4ABE-A173-E791DB83C6DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReturnHome.Tests", "ReturnHome\EQOAProto-C-Sharp.Tests\EQOAProto-C-Sharp.Tests.csproj", "{E4827845-6D2D-4BE2-95BA-AFC980D073EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReturnHomeTests", "ReturnHome\EQOAProto-C-Sharp.Tests\EQOAProto-C-Sharp.Tests.csproj", "{E4827845-6D2D-4BE2-95BA-AFC980D073EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -5,7 +5,7 @@ using ReturnHome.Packet.Bundle.Message.Types;
 using System.Collections.Generic;
 using Xunit;
 
-namespace EQOAProto_C_Sharp.UnitTests.Packet {
+namespace ReturnHome.Tests.Packet {
     public class EQOAPacketBuildTest {
         [Fact]
         public void Packet156SendGameVersionAfterFirstConnect()

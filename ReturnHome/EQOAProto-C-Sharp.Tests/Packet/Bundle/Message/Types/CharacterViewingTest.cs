@@ -1,12 +1,12 @@
 using Xunit;
 using System.Collections.Generic;
-using EQOAProto_C_Sharp.Repository;
-using Packet;
-using Packet.Support;
-using Packet.Bundle.Message;
-using Packet.Bundle.Message.Types;
+using ReturnHome.Repository;
+using ReturnHome.Packet;
+using ReturnHome.Packet.Support;
+using ReturnHome.Packet.Bundle.Message;
+using ReturnHome.Packet.Bundle.Message.Types;
 
-namespace EQOAProto_C_Sharp.UnitTests.Packet.Bundle.Message.Types {
+namespace ReturnHome.Tests.Packet.Bundle.Message.Types {
     public class CharacterViewingTest {
 
         [Fact]

@@ -1,8 +1,8 @@
 using Xunit;
 using System.Collections.Generic;
-using Packet;
+using ReturnHome.Packet;
 
-namespace EQOAProto_C_Sharp.UnitTests.Packet {
+namespace ReturnHome.Tests.Packet {
     public class EQOAPacketTest {
         [Fact]
         public void Packet155ServerSelectFirstConnection()

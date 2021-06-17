@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EQOA-Proto-C-sharp", "EQOAProto-C-Sharp\EQOA-Proto-C-sharp.csproj", "{613D3A45-C985-4908-B051-AE1ED0227707}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReturnHomeTests", "EQOAProto-C-Sharp.Tests\EQOA-Proto-C-sharp.Tests.csproj", "{613D3A45-C985-4908-B051-AE1ED0227707}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCPServerTests", "..\..\..\..\source\repos\TCPServerTests\TCPServerTests\TCPServerTests\TCPServerTests.csproj", "{C3B0061B-DBFB-40EF-A69E-E75CB0A0C28D}"
 EndProject
 Global

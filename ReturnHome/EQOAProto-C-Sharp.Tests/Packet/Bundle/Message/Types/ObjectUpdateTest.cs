@@ -1,9 +1,9 @@
 using Xunit;
 using System.Collections.Generic;
-using Packet;
-using Packet.Bundle.Message.Types;
+using ReturnHome.Packet;
+using ReturnHome.Packet.Bundle.Message.Types;
 
-namespace EQOAProto_C_Sharp.UnitTests.Packet.Bundle.Message.Types {
+namespace ReturnHome.Tests.Packet.Bundle.Message.Types {
     public class CompressedUpdateMessageTest {
         [Fact]
         public void CanCreateObjectUpdateFromKnownValidBytes() {

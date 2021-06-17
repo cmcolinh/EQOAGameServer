@@ -1,11 +1,11 @@
 using Xunit;
 using System.Collections.Generic;
-using Packet;
-using Packet.Bundle;
-using Packet.Bundle.Message;
-using Packet.Bundle.Message.Types;
+using ReturnHome.Packet;
+using ReturnHome.Packet.Bundle;
+using ReturnHome.Packet.Bundle.Message;
+using ReturnHome.Packet.Bundle.Message.Types;
 
-namespace EQOAProto_C_Sharp.UnitTests.Packet.Bundle {
+namespace ReturnHome.Tests.Packet.Bundle {
     public class UpdateMessageTest {
         [Fact]
         public void TestUpdateMessageCreation() {

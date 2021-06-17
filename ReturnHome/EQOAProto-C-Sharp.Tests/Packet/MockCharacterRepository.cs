@@ -1,9 +1,9 @@
-using EQOAProto_C_Sharp.Repository;
-using EQOAProto_C_Sharp.Enumeration;
+using ReturnHome.Repository;
+using ReturnHome.Enumeration;
 using System;
 using System.Collections.Generic;
 
-namespace EQOAProto_C_Sharp.UnitTests.Packet {
+namespace ReturnHome.Tests.Packet {
     class MockCharacterRepository : CharacterRepository {
         private static readonly Lazy<List<CharacterRepository.ViewingModel>> playerList = new Lazy<List<CharacterRepository.ViewingModel>>(() => {
             return new List<CharacterRepository.ViewingModel>(){
@@ -30,7 +30,7 @@ namespace EQOAProto_C_Sharp.UnitTests.Packet {
         public string CharacterName() => "Ferry";
         public long EntityId() => 1140744;
         public long ModelId() => 1640644319;
-        public EQOAProto_C_Sharp.Enumeration.CharacterClass CharacterClass() => EQOAProto_C_Sharp.Enumeration.CharacterClass.BRD;
+        public ReturnHome.Enumeration.CharacterClass CharacterClass() => ReturnHome.Enumeration.CharacterClass.BRD;
         public CharacterRace Race() => CharacterRace.BAR;
         public byte Level() => 60;
         public CharacterHairColor HairColor() => CharacterHairColor.BLACK;
@@ -67,7 +67,7 @@ namespace EQOAProto_C_Sharp.UnitTests.Packet {
         public string CharacterName() => "Daydrift";
         public long EntityId() => 1142499;
         public long ModelId() => -657100808;
-        public EQOAProto_C_Sharp.Enumeration.CharacterClass CharacterClass() => EQOAProto_C_Sharp.Enumeration.CharacterClass.ENC;
+        public ReturnHome.Enumeration.CharacterClass CharacterClass() => ReturnHome.Enumeration.CharacterClass.ENC;
         public CharacterRace Race() => CharacterRace.ELF;
         public byte Level() => 60;
         public CharacterHairColor HairColor() => CharacterHairColor.BLACK;
@@ -104,7 +104,7 @@ namespace EQOAProto_C_Sharp.UnitTests.Packet {
         public string CharacterName() => "Lear";
         public long EntityId() => 1144189;
         public long ModelId() => -657100808;
-        public EQOAProto_C_Sharp.Enumeration.CharacterClass CharacterClass() => EQOAProto_C_Sharp.Enumeration.CharacterClass.DRD;
+        public ReturnHome.Enumeration.CharacterClass CharacterClass() => ReturnHome.Enumeration.CharacterClass.DRD;
         public CharacterRace Race() => CharacterRace.ELF;
         public byte Level() => 60;
         public CharacterHairColor HairColor() => CharacterHairColor.BROWN;
@@ -141,7 +141,7 @@ namespace EQOAProto_C_Sharp.UnitTests.Packet {
         public string CharacterName() => "Kencade";
         public long EntityId() => 1155682;
         public long ModelId() => -657100808;
-        public EQOAProto_C_Sharp.Enumeration.CharacterClass CharacterClass() => EQOAProto_C_Sharp.Enumeration.CharacterClass.CL;
+        public ReturnHome.Enumeration.CharacterClass CharacterClass() => ReturnHome.Enumeration.CharacterClass.CL;
         public CharacterRace Race() => CharacterRace.ELF;
         public byte Level() => 60;
         public CharacterHairColor HairColor() => CharacterHairColor.BLACK;
@@ -178,7 +178,7 @@ namespace EQOAProto_C_Sharp.UnitTests.Packet {
         public string CharacterName() => "Hymnofpower";
         public long EntityId() => 1204345;
         public long ModelId() => -657100808;
-        public EQOAProto_C_Sharp.Enumeration.CharacterClass CharacterClass() => EQOAProto_C_Sharp.Enumeration.CharacterClass.BRD;
+        public ReturnHome.Enumeration.CharacterClass CharacterClass() => ReturnHome.Enumeration.CharacterClass.BRD;
         public CharacterRace Race() => CharacterRace.ELF;
         public byte Level() => 60;
         public CharacterHairColor HairColor() => CharacterHairColor.BLACK;
@@ -215,7 +215,7 @@ namespace EQOAProto_C_Sharp.UnitTests.Packet {
         public string CharacterName() => "Necnok";
         public long EntityId() => 1216726;
         public long ModelId() => -1449366763;
-        public EQOAProto_C_Sharp.Enumeration.CharacterClass CharacterClass() => EQOAProto_C_Sharp.Enumeration.CharacterClass.NEC;
+        public ReturnHome.Enumeration.CharacterClass CharacterClass() => ReturnHome.Enumeration.CharacterClass.NEC;
         public CharacterRace Race() => CharacterRace.GNO;
         public byte Level() => 60;
         public CharacterHairColor HairColor() => CharacterHairColor.GRAY;
@@ -252,7 +252,7 @@ namespace EQOAProto_C_Sharp.UnitTests.Packet {
         public string CharacterName() => "Dudderz";
         public long EntityId() => 1224955;
         public long ModelId() => 1282385202;
-        public EQOAProto_C_Sharp.Enumeration.CharacterClass CharacterClass() => EQOAProto_C_Sharp.Enumeration.CharacterClass.WAR;
+        public ReturnHome.Enumeration.CharacterClass CharacterClass() => ReturnHome.Enumeration.CharacterClass.WAR;
         public CharacterRace Race() => CharacterRace.TRL;
         public byte Level() => 60;
         public CharacterHairColor HairColor() => CharacterHairColor.BLACK;
@@ -289,7 +289,7 @@ namespace EQOAProto_C_Sharp.UnitTests.Packet {
         public string CharacterName() => "Corstensbank";
         public long EntityId() => 1260509;
         public long ModelId() => 1893243078;
-        public EQOAProto_C_Sharp.Enumeration.CharacterClass CharacterClass() => EQOAProto_C_Sharp.Enumeration.CharacterClass.MAG;
+        public ReturnHome.Enumeration.CharacterClass CharacterClass() => ReturnHome.Enumeration.CharacterClass.MAG;
         public CharacterRace Race() => CharacterRace.HUM;
         public byte Level() => 1;
         public CharacterHairColor HairColor() => CharacterHairColor.BROWN;

@@ -1,10 +1,10 @@
 using Xunit;
 using System.Collections.Generic;
-using Packet;
-using Packet.Bundle.Message;
-using Packet.Bundle.Message.Types;
+using ReturnHome.Packet;
+using ReturnHome.Packet.Bundle.Message;
+using ReturnHome.Packet.Bundle.Message.Types;
 
-namespace EQOAProto_C_Sharp.UnitTests.Packet.Bundle.Message.Types {
+namespace ReturnHomePacket.Bundle.Message.Types {
     public class AccountCredentialsTest {
         [Fact]
         public void TestReadAccountCredentials() {

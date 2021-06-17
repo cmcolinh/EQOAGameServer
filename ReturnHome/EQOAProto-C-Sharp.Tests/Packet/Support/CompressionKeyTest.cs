@@ -1,9 +1,9 @@
 using Xunit;
 using System.Collections.Generic;
-using Packet;
-using Packet.Support;
+using ReturnHome.Packet;
+using ReturnHome.Packet.Support;
 
-namespace EQOAProto_C_Sharp.UnitTests.Packet.Support  {
+namespace ReturnHome.Tests.Packet.Support  {
     public class CompressionKeyTest {
         [Theory] //when first bit of first byte is not set, the second nibble should indicate how many bytes of 0x00s to compress
         [InlineData(0x41, 1)]

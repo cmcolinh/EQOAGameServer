@@ -1,9 +1,9 @@
-using EQOAProto_C_Sharp.Repository;
+using ReturnHome.Repository;
 using System;
 using System.Collections.Generic;
 using System.Net;
 
-namespace EQOAProto_C_Sharp.UnitTests.Packet {
+namespace ReturnHome.Tests.Packet {
     class MockGameServerListRepository : GameServerListRepository {
         private static readonly Lazy<List<GameServerListRepository.GameServer>> gameServers = new Lazy<List<GameServerListRepository.GameServer>>(() => {
             return new List<GameServerListRepository.GameServer>(){

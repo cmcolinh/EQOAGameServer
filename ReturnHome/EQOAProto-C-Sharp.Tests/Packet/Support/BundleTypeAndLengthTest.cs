@@ -1,10 +1,10 @@
 using Xunit;
 using System;
 using System.Collections.Generic;
-using Packet;
-using Packet.Support;
+using ReturnHome.Packet;
+using ReturnHome.Packet.Support;
 
-namespace EQOAProto_C_Sharp.UnitTests.Packet.Support {
+namespace ReturnHome.Tests.Packet.Support {
     public class BundleTypeAndLengthTest {
         public BundleTypeAndLengthTest() {}
 

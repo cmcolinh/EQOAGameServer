@@ -1,13 +1,13 @@
 using Xunit;
-using EQOAProto_C_Sharp.PacketHandler;
-using EQOAProto_C_Sharp.PacketHandler.HandleFirstPacket;
-using EQOAProto_C_Sharp.Repository;
-using Packet;
+using ReturnHome.PacketHandler;
+using ReturnHome.PacketHandler.HandleFirstPacket;
+using ReturnHome.Repository;
+using ReturnHome;
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
 
-namespace EQOAProto_C_Sharp.UnitTests.Packet {
+namespace ReturnHome.Tests.Packet {
     public class ManageSessionTest {
         [Fact]
         public void T()
