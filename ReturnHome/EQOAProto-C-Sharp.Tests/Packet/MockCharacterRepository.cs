@@ -30,7 +30,7 @@ namespace ReturnHome.Tests.Packet {
         public string CharacterName() => "Ferry";
         public long EntityId() => 1140744;
         public long ModelId() => 1640644319;
-        public ReturnHome.Enumeration.CharacterClass CharacterClass() => ReturnHome.Enumeration.CharacterClass.BRD;
+        public ReturnHome.Enumeration.CharacterClass CharacterClass() => ReturnHome.Enumeration.CharacterClass.SHA;
         public CharacterRace Race() => CharacterRace.BAR;
         public byte Level() => 60;
         public CharacterHairColor HairColor() => CharacterHairColor.BLACK;
